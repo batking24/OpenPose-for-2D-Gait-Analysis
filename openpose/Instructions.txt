@@ -1,0 +1,17 @@
+﻿1. Double click on `models/getBaseModels.bat` to download the required body, face, and hand models.
+	- Optional: Double click on `models/getCOCO_and_MPII_optional.bat` to download the COCO and MPII models (slower and less accurate, only download them if you really have a reason to do so).
+2. Check all the info in:
+    - https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/v1.7.0
+    - https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/
+3. Specially, the C++ quick start guide:
+    - https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/quick_start.md
+4. For Python, check both the C++ quick start guide (same flags) and the Python testing doc:
+    - https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/quick_start.md
+    - https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/modules/python_module.md#testing, but replace "cd build/examples/tutorial_api_python" by "cd python/".
+    	- NOTE: The rest of the python_module.md instructions are for the GitHub source code library, you can ignore them here.
+    - Python code example:
+```
+cd {OpenPose_root_path}
+cd python/
+python openpose_python.py
+```
