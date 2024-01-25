@@ -7,6 +7,8 @@ It is crucial in various medical fields, especially orthopedics and rehabilitati
 I designed a markerless, low monetary cost, accessible approach to human gait analysis using an OpenPose-based 2D estimation system for knee flexion landmarks. Next, I plot Clinical gait angles, points of contact, and errors in estimation via approximations in displacement and flexion angles by taking a weighted average tuned to a specific demographic. 
 Our approach could aid in the early detection and management of Gait anomalies often linked to people with musculoskeletal disability, providing an accessible diagnosis.
 
+**This work was done under the supervision of Prof. Tathagata Ray, BITS Pilani.**
+
 ## OpenPose Installation and Usage Guide 
 
 This README provides detailed instructions for setting up and using OpenPose, an open-source real-time multi-person keypoint detection library for body, face, and hand estimation. The guidelines are based on version 1.7.0 of OpenPose.
@@ -86,7 +88,7 @@ If you don't have the `models` directory:
        - [Python Testing Documentation](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/modules/python_module.md#testing) - Note: Replace "cd build/examples/tutorial_api_python" with "cd python/".
        - The rest of the instructions in `python_module.md` are for the GitHub source code library and can be ignored.
 
-2. **Running openpose with Pyton:**
+2. **Easy running openpose with Pyton:**
    ```bash
    cd {OpenPose_root_path}
    cd python/
