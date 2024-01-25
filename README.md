@@ -72,6 +72,10 @@ We compute gait angles in 2D plane as suggested in Whittle M. W. Gait Analysis: 
 We calculate the following three angles for comprehensive gait analysis:
 
 - **Knee Angle**: Defined as the angle between the femur and the tibia, typically unambiguous. [Sagittal Plane]
+
+
+![Lower Limbs](images/lower_limbs.png "Lower Limbs")
+
 - **Ankle Angle**: Commonly defined as the angle between the tibia and an arbitrary line in the foot. While this angle is usually around 90°, it is conventionally set as 0°, with dorsiflexion and plantarflexion being movements in the positive and negative directions, respectively.
 - **Hip Angle**: Measured in two distinct ways:
   - The angle between the vertical and the femur. [Sagittal Plane]
@@ -79,7 +83,7 @@ We calculate the following three angles for comprehensive gait analysis:
 
 ![Medial Foot](images/medial_foot.png "Medial Foot")
 ![Right Foot](images/right_foot.png "Right Foot")
-![Lower Limbs](images/lower_limbs.png "Lower Limbs")
+
 
 
 ## Ongoing work 
