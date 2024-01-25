@@ -87,6 +87,8 @@ We calculate the following three angles for comprehensive gait analysis:
 The figures illustrates the various positions of the legs during a single gait cycle by the right leg (shown in gray). It depicts stages such as initial contact, loading response, mid-stance, terminal stance, pre-swing, initial swing, mid-swing, and terminal swing, along with heel rise, opposite toe off, and opposite initial contact, demonstrating the sequential movements involved in a complete step.
 
 
+![Gait cycle circle](images/gait_cycle_circle.png "Gait cycle circle")
+![Gait cycle square](images/single_gait_square.png "Gait cycle square")
 
 ## Ongoing work 
 
