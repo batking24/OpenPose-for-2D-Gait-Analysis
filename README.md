@@ -32,7 +32,7 @@ This README provides detailed instructions for setting up and using OpenPose, an
      - A CPU with at least 8 cores.
 
 ## Installation:
-- We installed OpenPose on a Windows 10 laptop as a portable demo. The system we used has the following specifications:
+- Installed OpenPose on a Windows 10 laptop as a portable demo. The system we used has the following specifications:
   - NVIDIA GEFORCE GTX 1650 Ti Graphics card
   - Intel i7 Processor
   - 16 GB RAM
@@ -46,13 +46,13 @@ This README provides detailed instructions for setting up and using OpenPose, an
 
 - OpenPose can also be run automatically without installation by using a Jupyter Notebook. This method allows the use of a cloud-based GPU environment like Google Colab, without the need for a local system GPU. The code for video processing in this setup is available [here](link-to-code).
 
-- We also attempted to install OpenPose from source code on Ubuntu 20.04 but encountered several installation errors with the dependencies.
+- also attempted to install OpenPose from source code on Ubuntu 20.04 but encountered several installation errors with the dependencies.
 
 ### Current Status:
 - The portable demo installation is successfully working on our Windows system.
-- We were also able to run OpenPose on Google Colab.
+-  were also able to run OpenPose on Google Colab.
 - However, both these installations are limited to the utilization of OpenPose. They do not allow for modifications to the OpenPose keypoint detection algorithm or its metrics.
-- We are yet to successfully install OpenPose from source code. If modifications to the code are required, we will attempt to install OpenPose from source code again.
+- are yet to successfully install OpenPose from source code. If modifications to the code are required, we will attempt to install OpenPose from source code again.
 
 ## Downloading Models
 
@@ -139,14 +139,12 @@ The figures illustrates the various positions of the legs during a single gait c
 <p align="center">
   <img src="images/gait_cycle_circle.png" alt="Gait cycle circle" title="Gait cycle circle"/>
 </p>
-<p align="center">
-  <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
-</p>
+
 
 ## Running openpose for Gait Analysis.
 
 ### 1. Generate JSON Output
-For our analysis, we used 2-D videos captured from a smartphone. We run each input video to produce a json ouput with posing coordinate keypoints for the BODY_25 format as shown below. These corrdinates then go through for analysis of gait. 
+For our analysis, I  used 2-D videos captured from a smartphone. We run each input video to produce a json ouput with posing coordinate keypoints for the BODY_25 format as shown below. These corrdinates then go through for analysis of gait. 
 
 <p align="center">
   <img src="images/body_25_output.png" alt="body_25_output" title="body_25_output"/>
@@ -185,13 +183,38 @@ The `Pose annotated video` can be found in the `video_output_skell` directory.
 
 
 
+## Real-time analysis from JSON Output 
 
 
 
+<p align="center">
+  <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
+</p>
 
-The extenisve analysis we performed can be found in the `codes` directory. 
 
-We create frames from the Real life pose annotated video and skeletal video 
+The extenisve analysis I performed can be found in the `codes` directory. 
+
+I created frames from the Real life pose annotated video and skeletal video 
+
+
+## Conclusion
+
+
+We computed the following points of the gait cycle using displacement analysis and joint angle calculation as shown above:
+1.	Heel Strike
+2.	Foot flat
+3.	Mid stance
+4.	Heel off
+5.	Toe off
+6.	Mid swing
+7.	Heel Strike (end of cycle)
+We were able to compute the frame number for each of the above points, and correspondingly map it to its UI output.
+
+<p align="center">
+  <img src="images/gait_heelstrike.gif" alt="Gait cycle demo" title="Gait cycle demo "/>
+</p>
+
+
 
 ## Ongoing work 
 
