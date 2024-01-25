@@ -77,10 +77,14 @@ We calculate the following three angles for comprehensive gait analysis:
   - The angle between the vertical and the femur. [Sagittal Plane]
   - The angle between the pelvis and the femur, which is the 'true' hip angle, usually defined such that 0° approximates the hip angle in the standing position. [Frontal Plane]
 
-![Lower Limbs](images/lower_limbs.png "Lower Limbs")
-![Right Foot](images/right_foot.png "Right Foot")
+![Lower Limbs](images/lower_limbs_resized.png "Lower Limbs")
+![Right Foot](images/right_foot_resized.png "Right Foot")
 ![Medial Foot](images/medial_foot.png "Medial Foot")
 
+
+## Single Gait Cycle
+
+The figures illustrates the various positions of the legs during a single gait cycle by the right leg (shown in gray). It depicts stages such as initial contact, loading response, mid-stance, terminal stance, pre-swing, initial swing, mid-swing, and terminal swing, along with heel rise, opposite toe off, and opposite initial contact, demonstrating the sequential movements involved in a complete step.
 
 
 
