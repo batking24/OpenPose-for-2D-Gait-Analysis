@@ -115,7 +115,23 @@ Camera-based image acquisition was established to collect standard normative gai
 ## Future work 
 
 
-## Future work 
+## Future work: 3D Gait Analysis  
+
+Additionally, 3D gait analysis offers precise and comprehensive insights into an individual's walking pattern, allowing for a detailed assessment of movement inefficiencies and joint mechanics.By visualizing three-dimensional motion, clinicians and therapists can make more informed decisions, leading to improved patient outcomes and more effective treatment interventions.
+Given below are references to further our work to 3D gait analysis:
+
+
+<p align="center">
+  <img src="images/3d_innovations.png" alt="3d_innovations" title="3d_innovations"/>
+</p>
+
+link: [Experimental Gait Analysis to Study Stress Distribution of the Human Foot - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5694576/)
+
+<p align="center">
+  <img src="images/rose_gamble.png alt=" alt="rose_gamble"  title="rose_gamble"/>
+</p>
+
+
 
 ## Acknowledgments
 
