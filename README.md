@@ -11,6 +11,49 @@ Our approach could aid in the early detection and management of Gait anomalies o
 
 This README provides detailed instructions for setting up and using OpenPose, an open-source real-time multi-person keypoint detection library for body, face, and hand estimation. The guidelines are based on version 1.7.0 of OpenPose.
 
+
+## Dependencies:
+1. **Operating Systems:** 
+   - Windows 10
+   - Ubuntu 20
+   - MacOS Mavericks and above
+
+2. **Requirements:**
+   - **CUDA (Nvidia GPU) version:**
+     - NVIDIA graphics card with at least 1.6 GB available
+     - At least 2.5 GB of free RAM
+     - Highly recommended: cuDNN.
+   - **OpenCL (AMD GPU) version:**
+     - Vega series graphics card
+     - At least 2 GB of free RAM memory.
+   - **CPU-only (no GPU) version:**
+     - Around 8GB of free RAM memory.
+   - **General recommendation:**
+     - A CPU with at least 8 cores.
+
+## Installation:
+- We installed OpenPose on a Windows 10 laptop as a portable demo. The system we used has the following specifications:
+  - NVIDIA GEFORCE GTX 1650 Ti Graphics card
+  - Intel i7 Processor
+  - 16 GB RAM
+  
+  ### Other Dependencies:
+  - **CMake GUI version** 
+    - Note: OpenCV is installed alongside CMake automatically.
+  - **Microsoft Visual Studio 2019 Community Edition**
+  - **CUDA version**
+  - **cuDNN version**
+
+- OpenPose can also be run automatically without installation by using a Jupyter Notebook. This method allows the use of a cloud-based GPU environment like Google Colab, without the need for a local system GPU. The code for video processing in this setup is available [here](link-to-code).
+
+- We also attempted to install OpenPose from source code on Ubuntu 20.04 but encountered several installation errors with the dependencies.
+
+### Current Status:
+- The portable demo installation is successfully working on our Windows system.
+- We were also able to run OpenPose on Google Colab.
+- However, both these installations are limited to the utilization of OpenPose. They do not allow for modifications to the OpenPose keypoint detection algorithm or its metrics.
+- We are yet to successfully install OpenPose from source code. If modifications to the code are required, we will attempt to install OpenPose from source code again.
+
 ## Downloading Models
 
 If you don't have the `models` directory:
@@ -105,13 +148,17 @@ The figures illustrates the various positions of the legs during a single gait c
   <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
 </p>
 
+
+
+We create frames from the Real life pose annotated video and skeletal video 
+
 ## Ongoing work 
 
 The project involved setting up a camera-based system to gather standardized gait cycle data from Indian users, aiming to develop a synchronized and calibrated multi-view video and motion capture dataset. This normative dataset is crucial for understanding the typical gait characteristics in the Indian population, aiding in various applications like biomechanical research and clinical assessments.
 
 ## Future work: 3D Gait Analysis  
 
-Additionally, 3D gait analysis offers precise and comprehensive insights into an individual's walking pattern, allowing for a detailed assessment of movement inefficiencies and joint mechanics.By visualizing three-dimensional motion, clinicians and therapists can make more informed decisions, leading to improved patient outcomes and more effective treatment interventions.
+Additionally, 3D gait analysis offers  more precise, comprehensive insights into an individual's walking pattern, allowing for a detailed assessment of movement inefficiencies and joint mechanics.By visualizing three-dimensional motion, clinicians and therapists can make more informed decisions, leading to improved patient outcomes and more effective treatment interventions.
 Given below are references to further our work to 3D gait analysis:
 
 
