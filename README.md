@@ -128,8 +128,26 @@ Given below are references to further our work to 3D gait analysis:
 link: [Experimental Gait Analysis to Study Stress Distribution of the Human Foot - PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5694576/)
 
 <p align="center">
-  <img src="images/rose_gamble.png alt=" alt="rose_gamble"  title="rose_gamble"/>
+  <img src="images/rose_gamble.png"  alt="rose_gamble"  title="rose_gamble"/>
 </p>
+
+<p align="center">
+  <img src="images/other_refs"  alt="other_refs"  title="other_refs"/>
+</p>
+
+
+### Potential integration of OpenPose 3D Points and Depth Sensor 
+
+OpenPose offers the capability to track 3D points, although this feature is currently limited to facial features, and left and right hand keypoints. This limitation arises from the complexity involved in accurately capturing and interpreting 3D data.
+
+For those interested in extending the 3D capabilities of OpenPose to full-body tracking, integrating depth sensors presents a viable solution. Depth sensors can provide the additional data necessary for constructing a complete 3D skeleton model.
+
+There are ongoing discussions and developments in the community around this topic. Notable references include:
+
+- [3D skeleton from keypoints - Issue #428 on CMU-Perceptual-Computing-Lab/openpose (GitHub)](https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/428)
+- [3D Reconstruction Demo - jrkwon/openpose (GitHub)](https://github.com/jrkwon/openpose/blob/master/doc/3d_reconstruction_demo.md)
+
+These resources provide insights into current efforts and potential methodologies for integrating depth sensors with OpenPose, paving the way for more comprehensive 3D motion tracking and analysis.
 
 
 
