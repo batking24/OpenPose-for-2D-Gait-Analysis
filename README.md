@@ -14,7 +14,7 @@ Our approach could aid in the early detection and management of Gait anomalies o
 This README provides detailed instructions for setting up and using OpenPose, an open-source real-time multi-person keypoint detection library for body, face, and hand estimation. The guidelines are based on version 1.7.0 of OpenPose.
 
 
-## Dependencies:
+## Dependencies for your Installation:
 1. **Operating Systems:** 
    - Windows 10
    - Ubuntu 20
@@ -33,8 +33,8 @@ This README provides detailed instructions for setting up and using OpenPose, an
    - **General recommendation:**
      - A CPU with at least 8 cores.
 
-## Installation:
-- Installed OpenPose on a Windows 10 laptop as a portable demo. The system we used has the following specifications:
+## My Installation:
+- I Installed OpenPose on a Windows 10 laptop as a portable demo. The system we used has the following specifications:
   - NVIDIA GEFORCE GTX 1650 Ti Graphics card
   - Intel i7 Processor
   - 16 GB RAM
@@ -46,7 +46,7 @@ This README provides detailed instructions for setting up and using OpenPose, an
   - **CUDA version**
   - **cuDNN version**
 
-- OpenPose can also be run automatically without installation by using a Jupyter Notebook. This method allows the use of a cloud-based GPU environment like Google Colab, without the need for a local system GPU. The code for video processing in this setup is available [here](link-to-code).
+- OpenPose can also be run automatically without installation by using a Jupyter Notebook. This method allows the use of a cloud-based GPU environment like Google Colab, without the need for a local system GPU. The code for video processing in this setup is available [here](https://github.com/janstenum/GaitAnalysis-PoseEstimation/blob/master/OpenPose_JS.ipynb).
 
 - also attempted to install OpenPose from source code on Ubuntu 20.04 but encountered several installation errors with the dependencies.
 
