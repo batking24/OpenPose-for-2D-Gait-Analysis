@@ -65,6 +65,17 @@ If you don't have the `models` directory:
 Anatomical planes of the human body: the sagittal plane divides the body into right and left halves, the frontal (or coronal) plane divides it into anterior (front) and posterior (back) halves, and the transverse plane divides the body into superior (upper) and inferior (lower) halves. These planes are used as points of reference in anatomical and medical contexts to describe locations or movements of various parts of the body.
 
 
+We compute gait angles in 2D plane as suggested in Whittle M. W. Gait Analysis: An introduction. Oxford, UK: Butterworth-Heinemann; 1991. [Google Scholar].
+We compute three angles for Gait Analysis:
+
+•	The knee angle is defined as the angle between the femur and the tibia and there is
+usually no ambiguity. [sagittal plane]
+•	The ankle angle is usually defined as the angle between the tibia and an arbitrary line in the foot (Although this angle is normally around 90°, it is conventional to define it as 0°, dorsiflexion and plantarflexion being movements in the positive and negative directions)
+•	The ‘hip’ angle may be measured in two different ways: the angle between the vertical and the femur, and the angle between the pelvis and the femur. The latter is the ‘true’ hip angle and is usually defined so that 0° is close to the hip angle in the standing position.
+(pelvis and femur would be in z plane) [ frontal plane] 
+(vertical and femur would be in y plane) [sagittal plane]
+
+
 
 
 ## Ongoing work 
