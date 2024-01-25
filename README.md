@@ -66,16 +66,20 @@ Anatomical planes of the human body: the sagittal plane divides the body into ri
 
 
 We compute gait angles in 2D plane as suggested in Whittle M. W. Gait Analysis: An introduction. Oxford, UK: Butterworth-Heinemann; 1991. [Google Scholar].
-We compute three angles for Gait Analysis:
 
-•	The knee angle is defined as the angle between the femur and the tibia and there is
-usually no ambiguity. [sagittal plane]
-•	The ankle angle is usually defined as the angle between the tibia and an arbitrary line in the foot (Although this angle is normally around 90°, it is conventional to define it as 0°, dorsiflexion and plantarflexion being movements in the positive and negative directions)
-•	The ‘hip’ angle may be measured in two different ways: the angle between the vertical and the femur, and the angle between the pelvis and the femur. The latter is the ‘true’ hip angle and is usually defined so that 0° is close to the hip angle in the standing position.
-(pelvis and femur would be in z plane) [ frontal plane] 
-(vertical and femur would be in y plane) [sagittal plane]
+## Computed Angles for Gait Analysis
 
+We calculate the following three angles for comprehensive gait analysis:
 
+- **Knee Angle**: Defined as the angle between the femur and the tibia, typically unambiguous. [Sagittal Plane]
+- **Ankle Angle**: Commonly defined as the angle between the tibia and an arbitrary line in the foot. While this angle is usually around 90°, it is conventionally set as 0°, with dorsiflexion and plantarflexion being movements in the positive and negative directions, respectively.
+- **Hip Angle**: Measured in two distinct ways:
+  - The angle between the vertical and the femur. [Sagittal Plane]
+  - The angle between the pelvis and the femur, which is the 'true' hip angle, usually defined such that 0° approximates the hip angle in the standing position. [Frontal Plane]
+
+![Medial Foot](images/medial_foot.png "Medial Foot")
+![Right Foot](images/right_foot.png "Right Foot")
+![Lower Limbs](images/lower_limbs.png "Lower Limbs")
 
 
 ## Ongoing work 
