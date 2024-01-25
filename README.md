@@ -256,7 +256,16 @@ These resources provide insights into current efforts and potential methodologie
 
 
 
-## Acknowledgments
+## Acknowledgments and references
 
 The work presented herein was conducted under the  supervision of Prof. Tathagata Ray from the Birla Institute of Science and Technology, Pilani.
 
+1.	Stenum J, Rossi C, Roemmich RT (2021) Two-dimensional video-based analysis of human
+gait using pose estimation. PLoS Comput Biol 17(4): e1008935. https://doi.org/10.1371/journal.pcbi.1008935
+2.	Viswakumar A, Rajagopalan V, Ray T, Gottipati P and Parimi C (2022) Development of a Robust, Simple, and Affordable Human Gait Analysis System Using Bottom-Up Pose Estimation With a Smartphone Camera. Front. Physiol. 12:784865. doi: 10.3389/fphys.2021.784865
+3.	A. Viswakumar, V. Rajagopalan, T. Ray and C. Parimi, "Human Gait Analysis Using OpenPose," 2019 Fifth International Conference on Image Information Processing (ICIIP), 2019, pp. 310-314, doi: 10.1109/ICIIP47207.2019.8985781.
+4.	S. Zheng, J. Zhang, K. Huang, R. He, and T. Tan, “Robust View Transformation Model for Gait Recognition,” in International Conference on Image Processing(ICIP), Brussels, Belgium, 2011.[bib] – How to employ Robust PCA with Partial Least Square to address multi-view gait recognition problem?
+5.	Majernik, Jaroslav. (2013). Normative Human Gait Databases. Statistics Research Letters. 2. 69-74.
+6.	Kwolek, B., Michalczuk, A., Krzeszowski, T., Switonski, A., Josinski, H., Wojciechowski, K.: Calibrated and Synchronized Multi-View Video and Motion Capture Dataset for Evaluation of Gait Recognition, 2019.
+7.	OpenPose Documentation. OpenPose: OpenPose Doc - Demo. (n.d.). Retrieved November 7, 2022, from https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_01_demo.html#running-on-images-video-or-webcam 
+8.	Prichep LS. Use of normative databases and statistical methods in demonstrating clinical utility of QEEG: importance and cautions. Clin EEG Neurosci. 2005 Apr;36(2):82-7. doi: 10.1177/155005940503600207. PMID: 15999903.
