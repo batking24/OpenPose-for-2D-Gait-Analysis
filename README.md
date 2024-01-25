@@ -83,7 +83,7 @@ I calculate the following three angles for comprehensive gait analysis:
 
 <!-- <img src="images/right_foot_resized.png" alt="Right Foot" title="Right Foot" style="display: block; margin-bottom: 10px;"/> -->
 <img src="images/medial_foot.png" alt="Medial Foot" title="Medial Foot" style="display: block; margin-bottom: 5px;"/>
-<img src="images/lower_limbs_resized.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 5px;"/>
+<img src="images/lower_limbs.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 5px;"/>
 
 <!-- ![Lower Limbs](images/lower_limbs_resized.png "Lower Limbs")
 <!-- ![Right Foot](images/right_foot_resized.png "Right Foot") -->
