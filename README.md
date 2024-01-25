@@ -152,13 +152,41 @@ For our analysis, we used 2-D videos captured from a smartphone. We run each inp
   <img src="images/body_25_output.png" alt="body_25_output" title="body_25_output"/>
 </p>
 
+All input test vidoes can be found in the `videos_examples` directory. 
+
 Assuming OpenPose is installed and set up, you can use the following command to generate JSON output from a video:
 
 ```bash
 openpose.bin --video "input_video.mp4" --write_json "output_json.json"
 ```
 
-The `json files` can be found in the `output_jsons` directory 
+The `output json files` can be found in the `output_jsons` directory. 
+
+
+### 2. Generate Video Output with Pose Overlay(Real Life)
+FT generate a video with pose overlay in real life, including hand and face and leg keypoints, use the following command:
+
+```bash
+openpose.bin --video "input_video.mp4" --write_video "output_video_pose_overlay.mp4" --hand --face
+```
+
+The `Pose annotated video` can be found in the `video_output_real` directory. 
+
+
+### 2. Generate Video Output with Pose Overlay(Skeletal)
+To generate a video with a black background and pose overlay, showing only keypoints, use the following command:
+
+```bash
+openpose.bin --video "input_video.mp4" --write_video "output_video_black_background.mp4" --part_to_show 0 --part_candidates 0
+
+```
+
+The `Pose annotated video` can be found in the `video_output_skell` directory. 
+
+
+
+
+
 
 
 The extenisve analysis we performed can be found in the `codes` directory. 
