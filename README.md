@@ -43,11 +43,11 @@ If you don't have the `models` directory:
        - [Python Testing Documentation](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/modules/python_module.md#testing) - Note: Replace "cd build/examples/tutorial_api_python" with "cd python/".
        - The rest of the instructions in `python_module.md` are for the GitHub source code library and can be ignored.
 
-2. **Python Code Example:**
+2. **Running openpose with Pyton:**
    ```bash
    cd {OpenPose_root_path}
    cd python/
-   python openpose_python.py
+   python openpose_python.py {video_name}
    ```
 
 ## Additional Notes
