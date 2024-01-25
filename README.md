@@ -52,11 +52,11 @@ This README provides detailed instructions for setting up and using OpenPose, an
 
 ### Current Status:
 - The portable demo installation is successfully working on our Windows system.
--  were also able to run OpenPose on Google Colab.
-- However, both these installations are limited to the utilization of OpenPose. They do not allow for modifications to the OpenPose keypoint detection algorithm or its metrics.
-- are yet to successfully install OpenPose from source code. If modifications to the code are required, we will attempt to install OpenPose from source code again.
+-  I was also able to run OpenPose on Google Colab.
+- However, both these installations are limited to the utilization of OpenPose. They do not allow for modifications to the OpenPose keypoint detection algorithm or its metrics.(with Flags)
+- Hence, I made use of original source code, as shown below documentation, for more comprehensive customization in the usage of OpenPose.
 
-## Downloading Models
+## Downloading Models(Portable python version)
 
 If you don't have the `models` directory:
 
@@ -95,6 +95,9 @@ If you don't have the `models` directory:
    python openpose_python.py {video_name}
    ```
 
+## Documentation for Source code Installation
+- Ensure that you have the dependencies mentioned above satisfied before installation.
+    [OpenPose Guide](https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html)
 
 
 ## Open Pose for Gait Analysis
