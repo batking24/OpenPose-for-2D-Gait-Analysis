@@ -185,16 +185,59 @@ The `Pose annotated video` can be found in the `video_output_skell` directory.
 
 ## Real-time analysis from JSON Output 
 
+From the json vector points we perform two analysis:
 
+1. **Knee Flexion  Angle Analysis**
+   - At each frame of the input video, we have the x and y coordinates for each key point shown in Posing skeletal structure. I used these      
+     coordinates to find the joint angle values corresponding to each frame using cosine inverse angle of vectors. 
+
+   - Left Knee angle: angle between vector (12,13) and vector (13,14)
+   - Right Knee angle: angle between vector (9,10) and vector (10,11)
+
+   Next, I ploted the extrimites points for each angle and use K-means clustering to approximate erros in extremes. The visualization is shown below.  
+
+    x-axis - frame number
+    y-axis - joint angle value. 
+    Orange – right knee, and Blue – left knee
+
+<p align="center">
+  <img src="images/Angle_analysis" alt="Angle Analysis" title="Angle Analysis"/>
+</p>
+
+
+2. **Displacement Analysis**
+   - I computed the displacement of each Knee, Hip, and Heel keypoint from the Trasversal Plane to visualize the movement of these points over multiple gait cycles. Multiple cycles for the same video were used  to estimate the errors in displacement analysis. The visualization is shown below.
+     
+
+<p align="center">
+  <img src="images/displacement_analysis.png" alt="displacement_analysis" title="Displacement Analysis"/>
+</p>
+
+
+
+### Conjunction of Angle and Displacement analysis:
+
+For enhanced performence, we integrate angle and displacment per frame. 
+
+On manual tuning w.r.t Indian population, we found the ideal weights for the normalized weighted summation of each respective displacement and flexion angle per frame. 
+The extenisve analysis I performed can be found in the `codes` directory. 
+The results of the conjunction of displacement and angle analysis can be found towards the end of `angle_test_for_data_example.ipynb`
+Using this, a better approximated final gait analysis is shown below. 
+
+
+<p align="center">
+  <img src="images/Gait_both.png" alt="Proposed Gait Analyis" title="Proposed Gait Analyis"/>
+</p>
+
+To show the accuracy of the proposed gait analysis, we show a correlation with ideal gait cycle. 
 
 <p align="center">
   <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
 </p>
 
 
-The extenisve analysis I performed can be found in the `codes` directory. 
 
-I created frames from the Real life pose annotated video and skeletal video 
+I created frames from the Real life pose annotated video and skeletal video
 
 
 ## Conclusion
@@ -208,6 +251,8 @@ We computed the following points of the gait cycle using displacement analysis a
 5.	Toe off
 6.	Mid swing
 7.	Heel Strike (end of cycle)
+
+
 We were able to compute the frame number for each of the above points, and correspondingly map it to its UI output.
 
 <p align="center">
@@ -241,7 +286,7 @@ link: [Experimental Gait Analysis to Study Stress Distribution of the Human Foot
 </p>
 
 
-### Potential integration of OpenPose 3D Points and Depth Sensor 
+### Potential integration of OpenPose 3D Points and Depth Sensors 
 
 OpenPose offers the capability to track 3D points, although this feature is currently limited to facial features, and left and right hand keypoints. This limitation arises from the complexity involved in accurately capturing and interpreting 3D data.
 
