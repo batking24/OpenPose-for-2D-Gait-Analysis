@@ -97,7 +97,7 @@ If you don't have the `models` directory:
 
 ## Documentation for Source code Installation
 - Ensure that you have the dependencies mentioned above satisfied before installation.
-    [OpenPose Guide](https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html)
+    - [OpenPose Guide](https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html)
 
 
 ## Open Pose for Gait Analysis
