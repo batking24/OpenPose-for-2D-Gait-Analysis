@@ -4,7 +4,7 @@
 Gait analysis is the scientific study of walking patterns in the field of biomechanics. It involves analyzing body mechanics, such as joint angles and muscle activity, during the different phases of walking. This analysis helps in diagnosing mobility issues, optimizing athletic performance, and guiding rehabilitation therapies.
 It is crucial in various medical fields, especially orthopedics and rehabilitation.  Traditional approaches are not accessible and require costly and obtrusive equipment. 
 
-We designed a markerless, low monetary cost, accessible approach to human gait analysis using an OpenPose-based 2D estimation system for knee flexion landmarks. Next, we plot Clinical gait angles, points of contact, and errors in estimation via approximations in displacement and flexion angles by taking a weighted average tuned to a specific demographic. 
+I designed a markerless, low monetary cost, accessible approach to human gait analysis using an OpenPose-based 2D estimation system for knee flexion landmarks. Next, I plot Clinical gait angles, points of contact, and errors in estimation via approximations in displacement and flexion angles by taking a weighted average tuned to a specific demographic. 
 Our approach could aid in the early detection and management of Gait anomalies often linked to people with musculoskeletal disability, providing an accessible diagnosis.
 
 ## OpenPose Installation and Usage Guide 
@@ -65,11 +65,11 @@ If you don't have the `models` directory:
 Anatomical planes of the human body: the sagittal plane divides the body into right and left halves, the frontal (or coronal) plane divides it into anterior (front) and posterior (back) halves, and the transverse plane divides the body into superior (upper) and inferior (lower) halves. These planes are used as points of reference in anatomical and medical contexts to describe locations or movements of various parts of the body.
 
 
-We compute gait angles in 2D plane as suggested in Whittle M. W. Gait Analysis: An introduction. Oxford, UK: Butterworth-Heinemann; 1991. [Google Scholar].
+The work computes gait angles in 2D plane as suggested in Whittle M. W. Gait Analysis: An introduction. Oxford, UK: Butterworth-Heinemann; 1991. [Google Scholar].
 
 ## Computed Angles for Gait Analysis
 
-We calculate the following three angles for comprehensive gait analysis:
+I calculate the following three angles for comprehensive gait analysis:
 
 - **Knee Angle**: Defined as the angle between the femur and the tibia, typically unambiguous. [Sagittal Plane]
 - **Ankle Angle**: Commonly defined as the angle between the tibia and an arbitrary line in the foot. While this angle is usually around 90°, it is conventionally set as 0°, with dorsiflexion and plantarflexion being movements in the positive and negative directions, respectively.
@@ -78,9 +78,10 @@ We calculate the following three angles for comprehensive gait analysis:
   - The angle between the pelvis and the femur, which is the 'true' hip angle, usually defined such that 0° approximates the hip angle in the standing position. [Frontal Plane]
 
 <p align="center">
-<img src="images/lower_limbs_resized.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 5px;"/>
+
 <!-- <img src="images/right_foot_resized.png" alt="Right Foot" title="Right Foot" style="display: block; margin-bottom: 10px;"/> -->
 <img src="images/medial_foot.png" alt="Medial Foot" title="Medial Foot" style="display: block; margin-bottom: 5px;"/>
+<img src="images/lower_limbs_resized.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 5px;"/>
 
 <!-- ![Lower Limbs](images/lower_limbs_resized.png "Lower Limbs")
 <!-- ![Right Foot](images/right_foot_resized.png "Right Foot") -->
@@ -91,9 +92,16 @@ We calculate the following three angles for comprehensive gait analysis:
 
 The figures illustrates the various positions of the legs during a single gait cycle by the right leg (shown in gray). It depicts stages such as initial contact, loading response, mid-stance, terminal stance, pre-swing, initial swing, mid-swing, and terminal swing, along with heel rise, opposite toe off, and opposite initial contact, demonstrating the sequential movements involved in a complete step.
 
-
+<!-- 
 ![Gait cycle circle](images/gait_cycle_circle.png "Gait cycle circle")
-![Gait cycle square](images/single_gait_square.png "Gait cycle square")
+![Gait cycle square](images/single_gait_square.png "Gait cycle square") -->
+
+<p align="center">
+  <img src="images/gait_cycle_circle.png" alt="Gait cycle circle" title="Gait cycle circle"/>
+</p>
+<p align="center">
+  <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
+</p>
 
 ## Ongoing work 
 
@@ -103,4 +111,11 @@ Camera-based image acquisition was established to collect standard normative gai
 
 
 ## Future work 
+
+
+## Future work 
+
+## Acknowledgments
+
+The work presented herein was conducted under the  supervision of Prof. Tathagata Ray from the Birla Institute of Science and Technology, Pilani.
 
