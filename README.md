@@ -60,7 +60,9 @@ If you don't have the `models` directory:
 ## Open Pose for Gait Analysis
 
 
-![Anatomical planes](images/anatomical_planes.png "Anatomical planes used in Biomechanics")
+<p align="center">
+  <img src="images/anatomical_planes.png" alt="Anatomical planes" title="Anatomical planes used in Biomechanics"/>
+</p>
 
 Anatomical planes of the human body: the sagittal plane divides the body into right and left halves, the frontal (or coronal) plane divides it into anterior (front) and posterior (back) halves, and the transverse plane divides the body into superior (upper) and inferior (lower) halves. These planes are used as points of reference in anatomical and medical contexts to describe locations or movements of various parts of the body.
 
