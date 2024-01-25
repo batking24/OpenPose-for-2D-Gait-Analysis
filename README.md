@@ -1,7 +1,13 @@
 
-# OpenPose Installation and Usage Guide
+# OpenPose for 2D Gait Analysis: Knee Flexion Landmark Detection 
 
-## Introduction
+Gait analysis is the scientific study of walking patterns in the field of biomechanics. It involves analyzing body mechanics, such as joint angles and muscle activity, during the different phases of walking. This analysis helps in diagnosing mobility issues, optimizing athletic performance, and guiding rehabilitation therapies.
+It is crucial in various medical fields, especially orthopedics and rehabilitation.  Traditional approaches are not accessible and require costly and obtrusive equipment. 
+
+We designed a markerless, low monetary cost, accessible approach to human gait analysis using an OpenPose-based 2D estimation system for knee flexion landmarks. Next, we plot Clinical gait angles, points of contact, and errors in estimation via approximations in displacement and flexion angles by taking a weighted average tuned to a specific demographic. 
+Our approach could aid in the early detection and management of Gait anomalies often linked to people with musculoskeletal disability, providing an accessible diagnosis.
+
+## OpenPose Installation and Usage Guide 
 
 This README provides detailed instructions for setting up and using OpenPose, an open-source real-time multi-person keypoint detection library for body, face, and hand estimation. The guidelines are based on version 1.7.0 of OpenPose.
 
@@ -31,16 +37,13 @@ If you don't have the `models` directory:
 
 ## Quick Start Guides
 
-1. **C++ Quick Start Guide:**
-   - For getting started with C++, follow the instructions in the [C++ Quick Start Guide](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/quick_start.md).
-
-2. **Python Quick Start:**
+1. **Python Quick Start:**
    - For Python usage, refer to both the C++ quick start guide (for the same flags) and the Python testing documentation:
        - [C++ Quick Start Guide](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/quick_start.md)
        - [Python Testing Documentation](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/v1.7.0/doc/modules/python_module.md#testing) - Note: Replace "cd build/examples/tutorial_api_python" with "cd python/".
        - The rest of the instructions in `python_module.md` are for the GitHub source code library and can be ignored.
 
-3. **Python Code Example:**
+2. **Python Code Example:**
    ```bash
    cd {OpenPose_root_path}
    cd python/
@@ -52,3 +55,24 @@ If you don't have the `models` directory:
 - Ensure to follow the instructions as per your operating system and hardware capabilities.
 - Replace `{OpenPose_root_path}` with the actual path where OpenPose is installed on your machine.
 - For troubleshooting, refer to the OpenPose GitHub Issues page or the detailed documentation provided in the links above.
+
+
+## Open Pose for Gait Analysis
+
+
+![Anatomical planes](images/anatomical_planes.png "Anatomical planes used in Biomechanics")
+
+Anatomical planes of the human body: the sagittal plane divides the body into right and left halves, the frontal (or coronal) plane divides it into anterior (front) and posterior (back) halves, and the transverse plane divides the body into superior (upper) and inferior (lower) halves. These planes are used as points of reference in anatomical and medical contexts to describe locations or movements of various parts of the body.
+
+
+
+
+## Ongoing work 
+
+Normative dataset: To create a synchronized and calibrated multi-view video and motion capture dataset. 
+
+Camera-based image acquisition was established to collect standard normative gait cycle data of Indian users.
+
+
+## Future work 
+
