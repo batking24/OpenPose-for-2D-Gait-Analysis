@@ -93,11 +93,6 @@ If you don't have the `models` directory:
    python openpose_python.py {video_name}
    ```
 
-## Additional Notes
-
-- Ensure to follow the instructions as per your operating system and hardware capabilities.
-- Replace `{OpenPose_root_path}` with the actual path where OpenPose is installed on your machine.
-- For troubleshooting, refer to the OpenPose GitHub Issues page or the detailed documentation provided in the links above.
 
 
 ## Open Pose for Gait Analysis
@@ -148,7 +143,24 @@ The figures illustrates the various positions of the legs during a single gait c
   <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
 </p>
 
+## Running openpose for Gait Analysis.
 
+### 1. Generate JSON Output
+For our analysis, we used 2-D videos captured from a smartphone. We run each input video to produce a json ouput with posing coordinate keypoints for the BODY_25 format as shown below. These corrdinates then go through for analysis of gait. 
+
+<p align="center">
+  <img src="images/body_25_output.png" alt="body_25_output" title="body_25_output"/>
+</p>
+
+Assuming OpenPose is installed and set up, you can use the following command to generate JSON output from a video:
+
+```bash
+openpose.bin --video "input_video.mp4" --write_json "output_json.json"
+
+The 'json files' can be found in the 
+
+
+The extenisve analysis we performed can be found in the `codes` directory. 
 
 We create frames from the Real life pose annotated video and skeletal video 
 
