@@ -77,9 +77,9 @@ We calculate the following three angles for comprehensive gait analysis:
   - The angle between the vertical and the femur. [Sagittal Plane]
   - The angle between the pelvis and the femur, which is the 'true' hip angle, usually defined such that 0° approximates the hip angle in the standing position. [Frontal Plane]
 
-<img src="images/lower_limbs_resized.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 10px;"/>
+<img src="images/lower_limbs_resized.png" alt="Lower Limbs" title="Lower Limbs" style="display: block; margin-bottom: 0px;"/>
 <!-- <img src="images/right_foot_resized.png" alt="Right Foot" title="Right Foot" style="display: block; margin-bottom: 10px;"/> -->
-<img src="images/medial_foot.png" alt="Medial Foot" title="Medial Foot" style="display: block; margin-bottom: 10px;"/>
+<img src="images/medial_foot.png" alt="Medial Foot" title="Medial Foot" style="display: block; margin-bottom: 0px;"/>
 
 <!-- ![Lower Limbs](images/lower_limbs_resized.png "Lower Limbs")
 <!-- ![Right Foot](images/right_foot_resized.png "Right Foot") -->
