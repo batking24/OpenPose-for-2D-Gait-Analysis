@@ -107,13 +107,7 @@ The figures illustrates the various positions of the legs during a single gait c
 
 ## Ongoing work 
 
-Normative dataset: To create a synchronized and calibrated multi-view video and motion capture dataset. 
-
-Camera-based image acquisition was established to collect standard normative gait cycle data of Indian users.
-
-
-## Future work 
-
+The project involved setting up a camera-based system to gather standardized gait cycle data from Indian users, aiming to develop a synchronized and calibrated multi-view video and motion capture dataset. This normative dataset is crucial for understanding the typical gait characteristics in the Indian population, aiding in various applications like biomechanical research and clinical assessments.
 
 ## Future work: 3D Gait Analysis  
 
