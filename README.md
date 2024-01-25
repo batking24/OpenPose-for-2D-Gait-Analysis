@@ -196,12 +196,13 @@ From the json vector points we perform two analysis:
 
    Next, I ploted the extrimites points for each angle and use K-means clustering to approximate erros in extremes. The visualization is shown below.  
 
-    x-axis - frame number
-    y-axis - joint angle value. 
-    Orange – right knee, and Blue – left knee
+Legend:
+x-axis - frame number
+y-axis - joint angle value. 
+Orange – right knee, and Blue – left knee
 
 <p align="center">
-  <img src="images/Angle_analysis" alt="Angle Analysis" title="Angle Analysis"/>
+  <img src="images/Angle_analysis.png" alt="Angle Analysis" title="Angle Analysis"/>
 </p>
 
 
@@ -236,14 +237,10 @@ To show the accuracy of the proposed gait analysis, we show a correlation with i
 </p>
 
 
-
-I created frames from the Real life pose annotated video and skeletal video
-
-
 ## Conclusion
 
 
-We computed the following points of the gait cycle using displacement analysis and joint angle calculation as shown above:
+I computed the following points of the gait cycle using displacement analysis and joint angle calculation as shown above:
 1.	Heel Strike
 2.	Foot flat
 3.	Mid stance
@@ -253,7 +250,7 @@ We computed the following points of the gait cycle using displacement analysis a
 7.	Heel Strike (end of cycle)
 
 
-We were able to compute the frame number for each of the above points, and correspondingly map it to its UI output.
+I was also able to compute the frame number for each of the above points, and correspondingly map it to its UI output.
 
 <p align="center">
   <img src="images/gait_heelstrike.gif" alt="Gait cycle demo" title="Gait cycle demo "/>
