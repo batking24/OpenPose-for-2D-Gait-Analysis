@@ -157,7 +157,7 @@ Assuming OpenPose is installed and set up, you can use the following command to 
 ```bash
 openpose.bin --video "input_video.mp4" --write_json "output_json.json"
 
-The 'json files' can be found in the 
+The `json files` can be found in the `output_jsons` directory ```
 
 
 The extenisve analysis we performed can be found in the `codes` directory. 
