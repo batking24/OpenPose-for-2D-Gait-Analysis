@@ -126,7 +126,7 @@ link: [Experimental Gait Analysis to Study Stress Distribution of the Human Foot
 </p>
 
 <p align="center">
-  <img src="images/other_refs"  alt="other_refs"  title="other_refs"/>
+  <img src="images/other_refs.png"  alt="other_refs"  title="other_refs"/>
 </p>
 
 
