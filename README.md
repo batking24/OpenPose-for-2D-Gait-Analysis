@@ -7,7 +7,8 @@ It is crucial in various medical fields, especially orthopedics and rehabilitati
 I designed a markerless, low monetary cost, accessible approach to human gait analysis using an OpenPose-based 2D estimation system for knee flexion landmarks. Next, I plot Clinical gait angles, points of contact, and errors in estimation via approximations in displacement and flexion angles by taking a weighted average tuned to a specific demographic. 
 Our approach could aid in the early detection and management of Gait anomalies often linked to people with musculoskeletal disability, providing an accessible diagnosis.
 
-**This work was done under the supervision of Prof. Tathagata Ray, BITS Pilani.**[rayt@hyderabad.bits-pilani.ac.in](mailto:rayt@hyderabad.bits-pilani.ac.in)
+**This work was done under the supervision of Prof. Tathagata Ray, BITS Pilani**
+Contact:[rayt@hyderabad.bits-pilani.ac.in](mailto:rayt@hyderabad.bits-pilani.ac.in)
 
 ## OpenPose Installation and Usage Guide 
 
