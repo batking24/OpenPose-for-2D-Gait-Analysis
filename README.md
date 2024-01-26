@@ -271,7 +271,7 @@ The project involved setting up a camera-based system to gather standardized gai
 
 ## Future work: 3D Gait Analysis  
 
-Additionally, 3D gait analysis offers  more precise, comprehensive insights into an individual's walking pattern, allowing for a detailed assessment of movement inefficiencies and joint mechanics.By visualizing three-dimensional motion, clinicians and therapists can make more informed decisions, leading to improved patient outcomes and more effective treatment interventions.
+Additionally, 3D gait analysis offers  more precise, comprehensive insights into an individual's walking pattern, allowing for a detailed assessment of movement inefficiencies and joint mechanics. By visualizing three-dimensional motion, clinicians and therapists can make more informed decisions, leading to improved patient outcomes and more effective treatment interventions.
 Given below are references to further our work to 3D gait analysis:
 
 
@@ -285,9 +285,9 @@ link: [Experimental Gait Analysis to Study Stress Distribution of the Human Foot
   <img src="images/rose_gamble.png"  alt="rose_gamble"  title="rose_gamble"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="images/other_refs.png"  alt="other_refs"  title="other_refs"/>
-</p>
+</p> -->
 
 
 ### Potential integration of OpenPose 3D Points and Depth Sensors 
@@ -318,3 +318,7 @@ gait using pose estimation. PLoS Comput Biol 17(4): e1008935. https://doi.org/10
 6.	Kwolek, B., Michalczuk, A., Krzeszowski, T., Switonski, A., Josinski, H., Wojciechowski, K.: Calibrated and Synchronized Multi-View Video and Motion Capture Dataset for Evaluation of Gait Recognition, 2019.
 7.	OpenPose Documentation. OpenPose: OpenPose Doc - Demo. (n.d.). Retrieved November 7, 2022, from https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/md_doc_01_demo.html#running-on-images-video-or-webcam 
 8.	Prichep LS. Use of normative databases and statistical methods in demonstrating clinical utility of QEEG: importance and cautions. Clin EEG Neurosci. 2005 Apr;36(2):82-7. doi: 10.1177/155005940503600207. PMID: 15999903.
+9. Whittle M. W. Gait Analysis: An introduction. Oxford, UK: Butterworth-Heinemann; 1991.
+10. Whittle M. W. Gait Analysis: An Introduction. 2nd. Oxford, UK: Butterworth-Heinemann; 1996.
+11. Harris G. F., Smith P. A., Marks R. M. Foot and Ankle Motion Analysis, Clinical Treatment and Technology. Clinical Treatment and Technology: CRC press; 2008.
+12. Whittle M. W. Clinical gait analysis: A review. Human Movement Science. 1996;15(3):369-387. doi: 10.1016/0167- 9457(96)00006-1. 
