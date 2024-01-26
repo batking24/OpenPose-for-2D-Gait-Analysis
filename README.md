@@ -43,8 +43,8 @@ This README provides detailed instructions for setting up and using OpenPose, an
   - **CMake GUI version** 
     - Note: OpenCV is installed alongside CMake automatically.
   - **Microsoft Visual Studio 2019 Community Edition**
-  - **CUDA version**
-  - **cuDNN version**
+  - **Compatible CUDA version**
+  - **Compatible cuDNN version**
 
 - OpenPose can also be run automatically without installation by using a Jupyter Notebook. This method allows the use of a cloud-based GPU environment like Google Colab, without the need for a local system GPU. The code for video processing in this setup is available [here](https://github.com/janstenum/GaitAnalysis-PoseEstimation/blob/master/OpenPose_JS.ipynb).
 
@@ -235,11 +235,6 @@ Using this, a better approximated final gait analysis is shown below.
   <img src="images/Gait_both.png" alt="Proposed Gait Analyis" title="Proposed Gait Analyis"/>
 </p>
 
-To show the accuracy of the proposed gait analysis, we show a correlation with ideal gait cycle. 
-
-<p align="center">
-  <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
-</p>
 
 
 ## Conclusion
@@ -259,6 +254,12 @@ I was also able to compute the frame number for each of the above points, and co
 
 <p align="center">
   <img src="images/gait_heelstrike.gif" alt="Gait cycle demo" title="Gait cycle demo "/>
+</p>
+
+To show the accuracy of the proposed gait analysis, we show a correlation with ideal gait cycle. 
+
+<p align="center">
+  <img src="images/single_gait_square.png" alt="Gait cycle square" title="Gait cycle square"/>
 </p>
 
 
